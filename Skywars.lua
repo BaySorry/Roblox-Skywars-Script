@@ -500,6 +500,7 @@ local Credits = page:addSection("Credits - Also credits to MoRnD#7976 for these 
 
 
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+loadstring(game:HttpGet(('https://github.com/BaySorry/Roblox-Skywars-Script/blob/main/Xray.lua'),true))()
 
 -- load
 venyx:SelectPage(venyx.pages[1], true)
