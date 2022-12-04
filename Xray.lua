@@ -104,7 +104,7 @@ infyeet.BorderColor3 = Color3.new(0, 0, 1)
 infyeet.Position = UDim2.new(0, 0, 0.543478251, 0)
 infyeet.Size = UDim2.new(0, 159, 0, 50)
 infyeet.Font = Enum.Font.ArialBold
-infyeet.Text = "Load Infinite Yeet"
+infyeet.Text = "None"
 infyeet.TextColor3 = Color3.new(1, 0.666667, 1)
 infyeet.TextScaled = true
 infyeet.TextSize = 14
@@ -255,7 +255,7 @@ function SCRIPT_RWFM84_FAKESCRIPT() -- SkyWarsGUI.LocalScript
 	mainframe.megavipenter.Text = mvtext..tostring(megavip)
 	end)
 	mainframe.infyeet.MouseButton1Click:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/none'))()
 	end)
 	mainframe.killothers.MouseButton1Click:connect(function()
 	if lplr.Backpack:FindFirstChild("Sword") or lplr.Character:FindFirstChild("Sword") then
